@@ -506,6 +506,7 @@ span[style*="box-sizing: border-box"]{
   color: #fff;
   font-size: 26px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .detail-content-icon{

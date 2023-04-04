@@ -3,9 +3,16 @@ import dynamic from 'next/dynamic'
 import Cookies from 'universal-cookie';
 import {Howl, Howler} from 'howler';
 
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
+import '../public/styles/bootstrap.min.css';
+import '../public/styles/bootstrap-icons.min.css';
+import '../public/styles/globals.css'
+
 const DynamicHeader = dynamic(() => import('../components/header'), {
   loading: () => <p>Loading...</p>,
-})
+});
 
 // const DynamicFooter = dynamic(() => import('../components/footer'), {
 //   loading: () => <p>Loading...</p>,
@@ -13,14 +20,7 @@ const DynamicHeader = dynamic(() => import('../components/header'), {
 
 const LoginForm = dynamic(() => import('../components/loginForm'), {
   loading: () => <p>Loading...</p>,
-})
-
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-
-import '../public/styles/bootstrap.min.css';
-import '../public/styles/bootstrap-icons.min.css';
-import '../public/styles/globals.css'
+});
 
 function MyApp({ Component, pageProps }) {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -43,6 +43,19 @@ function MyApp({ Component, pageProps }) {
   });
 
   useEffect(() => {
+    if("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+       navigator.serviceWorker.register("/js/service-worker.js").then(
+          function (registration) {
+            console.log("Service Worker registration successful with scope: ", registration.scope);
+          },
+          function (err) {
+            console.log("Service Worker registration failed: ", err);
+          }
+        );
+      });
+    }
+
     fetch("https://docs.google.com/spreadsheets/d/1eWrw8DgvNw5Rv6XXaBpncM0Okr4JuAjl6r2SHS28Px0/gviz/tq?&sheet=Sheet1")
     .then(response => response.text())
     .then(data => {

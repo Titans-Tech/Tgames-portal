@@ -35,19 +35,21 @@ export default function Home() {
       .then(response => response.json())
       .then(data => {
         setGames(data)
-        $('.list-item').on('click', function(e){
-          var order = $('.list-item').index(this);
-          console.log(order);
-          $('.list-item').removeClass('active')
-          $(this).addClass('active');
-          $('.detail-section').fadeOut(300, function(){
-            $('.preview-detail-slider').trigger('to.owl.carousel', [order, 0, true]);
-            $('.detail-section').fadeIn(500);
-            $('.list-wrapper').removeClass('list-wrapper-open');
-            $('.header-title').fadeOut(100);
-            $('.list-header').fadeIn(100);
-          })
-        });
+        setTimeout(function(){
+          $(refListGame.current).on('click', function(e){
+            var order = $('.list-item').index(this);
+            console.log(order);
+            $('.list-item').removeClass('active')
+            $(this).addClass('active');
+            $('.detail-section').fadeOut(300, function(){
+              $('.preview-detail-slider').trigger('to.owl.carousel', [order, 0, true]);
+              $('.detail-section').fadeIn(500);
+              $('.list-wrapper').removeClass('list-wrapper-open');
+              $('.header-title').fadeOut(100);
+              $('.list-header').fadeIn(100);
+            })
+          });
+        }, 100);
 
         $(refListWrapper.current).on('touchstart', function(event){
           startPoint = event.changedTouches[0].clientY;
