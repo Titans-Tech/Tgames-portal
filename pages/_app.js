@@ -7,9 +7,9 @@ const DynamicHeader = dynamic(() => import('../components/header'), {
   loading: () => <p>Loading...</p>,
 })
 
-const DynamicFooter = dynamic(() => import('../components/footer'), {
-  loading: () => <p>Loading...</p>,
-})
+// const DynamicFooter = dynamic(() => import('../components/footer'), {
+//   loading: () => <p>Loading...</p>,
+// })
 
 const LoginForm = dynamic(() => import('../components/LoginForm'), {
   loading: () => <p>Loading...</p>,
@@ -133,7 +133,7 @@ function MyApp({ Component, pageProps }) {
             </div>
           )
         }
-      <DynamicFooter/>
+      {/* <DynamicFooter/> */}
     </>
   )
 }
