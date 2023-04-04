@@ -11,7 +11,7 @@ const DynamicHeader = dynamic(() => import('../components/header'), {
 //   loading: () => <p>Loading...</p>,
 // })
 
-const LoginForm = dynamic(() => import('../components/LoginForm'), {
+const LoginForm = dynamic(() => import('../components/loginForm'), {
   loading: () => <p>Loading...</p>,
 })
 
