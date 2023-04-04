@@ -20,8 +20,8 @@ const LoginForm = () => {
         <div className="modal-content">
           <div className="modal-body">
             <form className="form-login" autoComplete="off" ref={refLoginForm}>
-              <div className="text-center">
-                <Image className="login-logo mb-3 w-100 h-auto" src="/images/logo-login.png" width={130} height={130} alt=""/>
+              <div className="text-center mb-3">
+                <Image className="login-logo w-100 h-auto" src="/images/logo-login.png" width={130} height={130} alt=""/>
               </div>
               <div className="mb-3 form-group">
                 <label className="form-label">Username</label>
