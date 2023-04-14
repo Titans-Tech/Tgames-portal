@@ -40,7 +40,7 @@
     "description": "Aim, shoot, score! Our new game combines the thrill of basketball with the fun of pinball. Get ready for an action-packed challenge full of obstacles and big scores."
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "Dikejar Ondel",
     "link": "https://ondelondel.titans.id",
     "icon": "/images/ondel-icon.png",
@@ -48,7 +48,7 @@
     "description": "Select card as soon as possible to get a luck card to avoid ondel ondel theft!"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Bayar Utang",
     "link": "https://games.titans.id/bayar-utang",
     "icon": "/images/bayarutang-icon.png",
@@ -56,7 +56,7 @@
     "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Scare The Crow",
     "link": "https://games.titans.id/scare-the-crow",
     "icon": "/images/scarecrow-icon.png",
@@ -64,7 +64,7 @@
     "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Germa Shoot",
     "link": "https://games.titans.id/germashoot",
     "icon": "/images/germashoot-icon.png",
