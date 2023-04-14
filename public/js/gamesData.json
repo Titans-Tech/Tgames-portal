@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Ketapel Buah",
+    "link": "https://games.titans.id/ketapel-buah",
+    "icon": "/images/ketapel-icon.png",
+    "image": "/images/ketapel-preview.png",
+    "description": "Fruit Puzzle Bobble: shoot and match fruit bubbles to clear the wall before it reaches the bottom."
+  },
+  {
+    "id": 1,
+    "name": "Hantu Smash",
+    "link": "https://hantusmash.titans.id",
+    "icon": "/images/hantu-icon.png",
+    "image": "/images/hantu-preview.png",
+    "description": "Tap the right button to smash the ghost. With increasing difficulty and speed, players must act fast to score points before time runs out. Are you up for the ghostly challenge?"
+  },
+  {
+    "id": 2,
+    "name": "Kelilingan",
+    "link": "https://games.titans.id/kililingan",
+    "icon": "/images/kelilingan-icon.png",
+    "image": "/images/kelilingan-preview.png",
+    "description": "Get ready to flip and score big! Our new game challenges you to flip wooden dolls across a variety of vehicles for maximum points. How far can you go?"
+  },
+  {
+    "id": 3,
+    "name": "Tanggar Leak",
+    "link": "https://games.titans.id/tangar-leak",
+    "icon": "/images/leak-icon.png",
+    "image": "/images/leak-preview.png",
+    "description": "Jump on the platforms to get higher and higher and earn more points! Watch out for the Leak monster lurking below. Quick reflexes are needed to outmaneuver the beast and reach the end goal. Can you reach the highest score?"
+  },
+  {
+    "id": 4,
+    "name": "Bikkelen",
+    "link": "https://games.titans.id/bikkelen",
+    "icon": "/images/bikkelen-icon.png",
+    "image": "/images/bikkelen-preview.png",
+    "description": "Aim, shoot, score! Our new game combines the thrill of basketball with the fun of pinball. Get ready for an action-packed challenge full of obstacles and big scores."
+  },
+  {
+    "id": 5,
+    "name": "Dikejar Ondel",
+    "link": "https://ondelondel.titans.id",
+    "icon": "/images/ondel-icon.png",
+    "image": "/images/ondel-preview.png",
+    "description": "Select card as soon as possible to get a luck card to avoid ondel ondel theft!"
+  },
+  {
+    "id": 6,
+    "name": "Bayar Utang",
+    "link": "https://games.titans.id/bayar-utang",
+    "icon": "/images/bayarutang-icon.png",
+    "image": "/images/bayarutang-preview.png",
+    "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
+  },
+  {
+    "id": 7,
+    "name": "Scare The Crow",
+    "link": "https://games.titans.id/scare-the-crow",
+    "icon": "/images/scarecrow-icon.png",
+    "image": "/images/scarecrow-preview.png",
+    "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
+  },
+  {
+    "id": 8,
+    "name": "Germa Shoot",
+    "link": "https://games.titans.id/germashoot",
+    "icon": "/images/germashoot-icon.png",
+    "image": "/images/germashoot-preview.png",
+    "description": "Clean the germs in your room by shooting them with a soap gun and get as much score as you can!"
+  }
+]
