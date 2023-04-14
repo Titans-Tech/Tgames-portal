@@ -5,10 +5,10 @@ import Image from 'next/image';
 
 export default function Detail() {
   const [gameId, setGameId] = useState({});
+  const shareBtn = useRef(null);
 
   const router = useRouter();
   const { id } = router.query;
-  console.log(id);
 
   useEffect(() => {
 
@@ -18,7 +18,7 @@ export default function Detail() {
         const gameDetail = data.find(item => item.id === Number(id));
         setGameId(gameDetail);
 
-        $('.bi-box-arrow-up').on('click', async function(){
+        $(shareBtn.current).on('click', async function(){
           if(navigator.share){
             try {
               await navigator.share({
@@ -47,7 +47,7 @@ export default function Detail() {
             <div className="detail-content-image detail-wrapper position-relative">
               <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.image} alt=""/>
               <div className="detail-content">
-                <i className="bi bi-box-arrow-up"></i>
+                <span className="bi bi-box-arrow-up" ref={shareBtn}></span>
                 <div className="detail-content-icon">
                   <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.icon} alt=""/>
                 </div>
