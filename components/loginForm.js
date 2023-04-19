@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import Image from 'next/image';
-import Cookies from 'universal-cookie';
 
 var $ = require('jquery');
 if (typeof window !== 'undefined') {
