@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
+
+var $ = require('jquery');
+if (typeof window !== 'undefined') {
+  window.$ = window.jQuery = require('jquery');
+}
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -18,10 +24,10 @@ export default function Detail() {
         const gameDetail = data.find(item => item.id === Number(id));
         setGameId(gameDetail);
 
-        $(document).on('click', '.share-btn', async function(){
+        $(document).on('click', '.share-btn', function(){
           if(navigator.share){
             try {
-              await navigator.share({
+              navigator.share({
                 url: window.location.href
               });
             } catch (error) {
