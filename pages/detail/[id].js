@@ -18,7 +18,7 @@ export default function Detail() {
         const gameDetail = data.find(item => item.id === Number(id));
         setGameId(gameDetail);
 
-        $(shareBtn.current).on('click', async function(){
+        $(document).on('click', '.share-btn', async function(){
           if(navigator.share){
             try {
               await navigator.share({
@@ -47,7 +47,7 @@ export default function Detail() {
             <div className="detail-content-image detail-wrapper position-relative">
               <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.image} alt=""/>
               <div className="detail-content">
-                <span className="bi bi-box-arrow-up" ref={shareBtn}></span>
+                <span className="share-btn bi bi-box-arrow-up" ref={shareBtn}></span>
                 <div className="detail-content-icon">
                   <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.icon} alt=""/>
                 </div>

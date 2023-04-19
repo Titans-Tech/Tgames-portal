@@ -70,5 +70,13 @@
     "icon": "/images/germashoot-icon.png",
     "image": "/images/germashoot-preview.png",
     "description": "Clean the germs in your room by shooting them with a soap gun and get as much score as you can!"
+  },
+  {
+    "id": 9,
+    "name": "Feed The Orangutan",
+    "link": "https://dev-titans.s3.ap-southeast-1.amazonaws.com/Yudi/throw-fruits",
+    "icon": "/images/orangutan-icon.png",
+    "image": "/images/orangutan-preview.png",
+    "description": "Aim, shoot, score! Feed the Orangutan all the good fruits and get the highest score in this unique Augmented Reality game."
   }
 ]
