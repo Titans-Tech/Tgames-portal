@@ -25,7 +25,7 @@ export default function Detail() {
         setGameId(gameDetail);
       });
 
-      $(document).on('click', '.share-btn', function(){
+      $(document).on('click', '.bi-box-arrow-up', function(){
         if(navigator.share){
           try {
             navigator.share({
