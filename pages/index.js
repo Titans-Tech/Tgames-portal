@@ -133,7 +133,7 @@ export default function Home() {
     <>
       <div className="list-page">
         <div role="button" className="log-out d-none">
-          <i className="bi bi-arrow-right-square" style={{"fontSize": "13px"}}></i> Log out
+          <i className="bi bi-box-arrow-right" style={{"fontSize": "13px"}}></i> Log out
         </div>
         <div className="row detail-wrapper position-relative">
           <h1>Titans Tech<br/>Game Library</h1>

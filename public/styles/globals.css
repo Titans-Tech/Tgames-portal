@@ -44,9 +44,9 @@
 }
 
 @font-face {
-  font-family: 'Junegull';
-  src: url('fonts/Junegull-Regular.woff2') format('woff2'),
-      url('fonts/Junegull-Regular.woff') format('woff');
+  font-family: 'Anton';
+  src: url('fonts/Anton-Regular.woff2') format('woff2'),
+      url('fonts/Anton-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -122,7 +122,7 @@ a{
 .btn-small {
   border-radius: 7px;
   font-size: 13px;
-  color: #0F7BFF !important;
+  color: #fff !important;
 }
 
 .btn-primary{
@@ -577,8 +577,11 @@ span[style*="box-sizing: border-box"]{
 }
 
 .form-group input[type="text"],
-.form-group input[type="password"]{
-  font-family: 'Junegull';
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+  .form-group input[type="tel"]{
+  font-family: 'Anton';
   background: rgba(217, 217, 217, 0.3);
   border: 1px solid #FDFDFD;
   color: #fff;
