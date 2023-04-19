@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 export default function Detail() {
   const [gameId, setGameId] = useState({});
-  const shareBtn = useRef(null);
+  // const shareBtn = useRef(null);
 
   const router = useRouter();
   const { id } = router.query;
@@ -53,7 +53,7 @@ export default function Detail() {
             <div className="detail-content-image detail-wrapper position-relative">
               <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.image} alt=""/>
               <div className="detail-content">
-                <span className="share-btn bi bi-box-arrow-up" ref={shareBtn}></span>
+                <span className="share-btn bi bi-box-arrow-up"></span>
                 <div className="detail-content-icon">
                   <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.icon} alt=""/>
                 </div>
