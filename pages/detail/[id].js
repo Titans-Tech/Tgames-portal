@@ -23,18 +23,18 @@ export default function Detail() {
       .then(data => {
         const gameDetail = data.find(item => item.id === Number(id));
         setGameId(gameDetail);
+      });
 
-        $(document).on('click', '.share-btn', function(){
-          if(navigator.share){
-            try {
-              navigator.share({
-                url: window.location.href
-              });
-            } catch (error) {
-              console.log(error);
-            }
+      $(document).on('click', '.share-btn', function(){
+        if(navigator.share){
+          try {
+            navigator.share({
+              url: window.location.href
+            });
+          } catch (error) {
+            console.log(error);
           }
-        });
+        }
       });
   }, [id]);
 
