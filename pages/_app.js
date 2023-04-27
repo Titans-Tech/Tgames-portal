@@ -59,7 +59,6 @@ function MyApp({ Component, pageProps }) {
     fetch("https://docs.google.com/spreadsheets/d/1eWrw8DgvNw5Rv6XXaBpncM0Okr4JuAjl6r2SHS28Px0/gviz/tq?&sheet=Sheet1")
     .then(response => response.text())
     .then(data => {
-  
       //Remove additional text and extract only JSON:
       const jsonData = JSON.parse(data.substring(47).slice(0, -2));
       var dataUsername = jsonData.table.rows[1].c[0].v;
@@ -132,7 +131,7 @@ function MyApp({ Component, pageProps }) {
 
   return(
     <>
-      <DynamicHeader seoTitle="Titans Games Hub" seoDescription="Titans Games"/>
+      <DynamicHeader seoTitle="Titans Games" seoDescription="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
         {loggedIn ?
           (
             <div className="container">
