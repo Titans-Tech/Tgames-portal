@@ -71,7 +71,10 @@ function MyApp({ Component, pageProps }) {
         $('.container-home').fadeIn();
       }
 
-      bgm.play();
+      bgm.stop();
+      setTimeout(function(){
+        bgm.play();
+      }, 200);
 
       $('.btn, a[href], *[data-bs-toggle], *[data-bs-dismiss]').on('click', function(){
         clicked.play();
