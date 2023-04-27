@@ -636,21 +636,25 @@ span[style*="box-sizing: border-box"]{
   font-family: 'Graphik Regular';
   color: #d1d5df !important;
   letter-spacing: 0;
+  font-size: 12px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   font-family: 'Graphik Regular';
   color: #d1d5df !important;
   letter-spacing: 0;
+  font-size: 12px;
 }
 :-ms-input-placeholder { /* IE 10+ */
   font-family: 'Graphik Regular';
   color: #d1d5df !important;
   letter-spacing: 0;
+  font-size: 12px;
 }
 :-moz-placeholder { /* Firefox 18- */
   font-family: 'Graphik Regular';
   color: #d1d5df !important;
   letter-spacing: 0;
+  font-size: 12px;
 }
 
 @media(max-height: 482px){
