@@ -583,7 +583,7 @@ span[style*="box-sizing: border-box"]{
 .form-group input[type="number"],
 .form-group input[type="email"],
   .form-group input[type="tel"]{
-  font-family: 'Anton';
+  font-family: 'Graphik Medium';
   background: rgba(217, 217, 217, 0.3);
   border: 1px solid #FDFDFD;
   color: #fff;
