@@ -20,7 +20,7 @@ const LoginForm = () => {
     //       <div className="modal-body">
           <div className="d-flex justify-content-center align-items-center h-100">
             <form className="form-login" autoComplete="off" ref={refLoginForm}>
-              <div className="text-center mb-5">
+              <div className="text-center mb-3">
                 <Image className="login-logo w-100 h-auto" src="/images/logo-login.png" width={200} height={200} alt=""/>
               </div>
               <div className="mb-2 form-group">
