@@ -78,5 +78,37 @@
     "icon": "/images/orangutan-icon.png",
     "image": "/images/orangutan-preview.png",
     "description": "Aim, shoot, score! Feed the Orangutan all the good fruits and get the highest score in this unique Augmented Reality game."
+  },
+  {
+    "id": 10,
+    "name": "Pusmeng",
+    "link": "https://games.titans.id/pusmeng",
+    "icon": "/images/pusmeng-icon.png",
+    "image": "/images/pusmeng-preview.png",
+    "description": "Test your reflexes as you jump and slide through the obstacles! Careful not to get caught!"
+  },
+  {
+    "id": 11,
+    "name": "Panen Jagung",
+    "link": "https://games.titans.id/panen-jagung",
+    "icon": "/images/panenjagung-icon.png",
+    "image": "/images/panenjagung-preview.png",
+    "description": "Harvest all the corn but watch out for those pesky rats!"
+  },
+  {
+    "id": 12,
+    "name": "Icip-Icip",
+    "link": "https://games.titans.id/icip-icip",
+    "icon": "/images/icipicip-icon.jpg",
+    "image": "/images/icipicip-preview.png",
+    "description": "Put all the skewers on to the grill and make sure they don't overlap"
+  },
+  {
+    "id": 13,
+    "name": "Mancing Yuk",
+    "link": "https://fishing.titans.id",
+    "icon": "/images/mancingyuk-icon.jpg",
+    "image": "/images/mancingyuk-preview.png",
+    "description": "Be the number 1 fisherman in this multiplayer game! The player with the most fish caught wins the game."
   }
 ]
