@@ -178,9 +178,18 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <Link href={item.link}>
+                      {item.link === '#' ? (
+                        <Link href={item.link}>
+                          <a className="btn btn-disabled btn-pill px-3">COMING <br /> SOON</a>
+                        </Link>
+                      ) : (
+                        <Link href={item.link}>
+                          <a className="btn btn-gray btn-pill">PLAY</a>
+                        </Link>
+                      )}
+                      {/* <Link href={item.link}>
                         <a className="btn btn-gray btn-pill">PLAY</a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </li>
                 ))
