@@ -113,10 +113,98 @@
   },
   {
     "id": 14,
+    "name": "Adu Komplek",
+    "link": "#",
+    "icon": "/images/adukomplek-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Test your reflexes in this multiplayer game! Hit or dodge the incoming tennis ball. Watch out for the fiery ones!"
+  },
+  {
+    "id": 15,
+    "name": "Adu Panco",
+    "link": "#",
+    "icon": "/images/adupanco-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Be the strongest Wayang! Tap the button as fast as you can to win in this multiplayer game!"
+  },
+  {
+    "id": 16,
+    "name": "Angon Bebek",
+    "link": "#",
+    "icon": "/images/angonbebek-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Help Mama Duck find her babies! Roam around the farm to find them all."
+  },
+  {
+    "id": 17,
     "name": "Flip The Bottle",
-    "link": "https://games.titans.id/bottle-flip-3d",
+    "link": "#",
     "icon": "/images/flipthebottle-icon.jpg",
     "image": "/images/bg-home.png",
     "description": "Inspired from the viral internet challenge, flip the bottle until the end of the level!"
+  },
+  {
+    "id": 18,
+    "name": "Jalan-Jalan",
+    "link": "#",
+    "icon": "/images/jalanjalan-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Walk through the neighborhood by tapping and holding the screen. Watch out for the cracks!"
+  },
+  {
+    "id": 19,
+    "name": "Kalung Hilang",
+    "link": "#",
+    "icon": "/images/kalunghilang-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Collect all the jewels and pearls from the lost necklace and get the highest score!"
+  },
+  {
+    "id": 20,
+    "name": "Kue Lebaran",
+    "link": "#",
+    "icon": "/images/kuelebaran-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Match the Eid cookies and be the winner! Nom, nom, nom!"
+  },
+  {
+    "id": 21,
+    "name": "Mencari Mutiara",
+    "link": "#",
+    "icon": "/images/mencarimutiara-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Dive deep into the sea and collect all the pearls."
+  },
+  {
+    "id": 22,
+    "name": "Panjat Pinang",
+    "link": "#",
+    "icon": "/images/panjatpinang-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Reach the top of the pole and avoid the obstacles!"
+  },
+  {
+    "id": 23,
+    "name": "Racikan Bli",
+    "link": "#",
+    "icon": "/images/racikanbli-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "In this food truck adventure game, complete all the orders and get the highest score!"
+  },
+  {
+    "id": 24,
+    "name": "Tendang Dinding",
+    "link": "#",
+    "icon": "/images/tendangdinding-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Release your inner ninja as you kick and soar from wall to wall. Watch out for the obstacles!"
+  },
+  {
+    "id": 25,
+    "name": "Warna Nusantara",
+    "link": "#",
+    "icon": "/images/warnanusantara-icon.jpg",
+    "image": "/images/bg-home.png",
+    "description": "Tap the screen and make sure you pass through the same color as your character!"
   }
 ]
