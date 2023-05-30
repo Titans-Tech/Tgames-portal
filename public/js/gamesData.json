@@ -118,5 +118,13 @@
     "icon": "/images/flipthebottle-icon.jpg",
     "image": "/images/flipthebottle-preview.jpg",
     "description": "Inspired from the viral internet challenge, flip the bottle until the end of the level!"
+  },
+  {
+    "id": 15,
+    "name": "Warna Nusantara",
+    "link": "https://games.titans.id/warna-nusantara",
+    "icon": "/images/warnanusantara-icon.jpg",
+    "image": "/images/warnanusantara-preview.jpg",
+    "description": "Tap the screen and make sure you pass through the same color as your character!"
   }
 ]
