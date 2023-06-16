@@ -9,8 +9,9 @@ const Header = ({seoTitle, seoDescription}) => {
       <Head>
         <meta charset="UTF-8"/>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0,viewport-fit=cover"/>
+        <meta name='apple-mobile-web-app-capable' content='yes'></meta>
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'></meta>
         {/* <!-- Google / Search Engine Tags --> */}
         <meta name="name" content="Titans Games"/>
         <meta name="description" content="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>

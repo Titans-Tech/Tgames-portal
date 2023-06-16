@@ -247,6 +247,7 @@ span[style*="box-sizing: border-box"]{
   width: 100%;
   padding: 0 30px;
   z-index: 2;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .detail-section{
@@ -661,6 +662,14 @@ span[style*="box-sizing: border-box"]{
   .detail-wrapper > h1 {
     font-size: 30px;
     line-height: 36px;
-    top: 26px;
+    /* top: 26px; */
   }
 }
+@supports (-webkit-touch-callout: none) {
+  .status{
+    top:80px!important;
+  }
+  .detail-content{
+    bottom: 80px 
+  }
+ }

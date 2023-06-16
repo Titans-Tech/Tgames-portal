@@ -44,7 +44,7 @@ export default function Detail() {
         (
           <div className="detail-page">
             <div className="header position-absolute top-0 left-0 mt-3">
-              <Link href={'/'}>
+              <Link href={'/'} onClick={()=>{$('.container').addClass('status')}}>
                 <a className="back">
                   <i className="bi bi-chevron-left"></i>
                 </a>

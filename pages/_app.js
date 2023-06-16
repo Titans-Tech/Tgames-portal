@@ -137,13 +137,13 @@ function MyApp({ Component, pageProps }) {
       <DynamicHeader seoTitle="Titans Games" seoDescription="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
         {loggedIn ?
           (
-            <div className="container">
+            <div className="container status">
               <Component {...pageProps} />
             </div>
           )
           :
           (
-            <div className="container container-home">
+            <div className="container container-home ">
               <LoginForm/>
             </div>
           )

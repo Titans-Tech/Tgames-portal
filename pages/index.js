@@ -22,20 +22,23 @@ export default function Home() {
 
   const refSeeAll = useRef(null);
   const refListGame = useRef([]);
+  const refListGroupGame = useRef();
   const refListWrapper = useRef(null);
   const refPreviewSlider = useRef(null);
   const refBackButton = useRef(null);
-
-
+  let scrollPos=0
+  // alert(window.screen.availHeight+" "+window.innerHeight)
   useEffect(() => {
     var startPoint;
     var endPoint;
-
+    window.addEventListener('notch-detected', function(e) {
+     alert(e+ "Notch detected, move shit around");
+    });
     fetch('/js/gamesData.json')
       .then(response => response.json())
       .then(data => {
         setGames(data)
-        setTimeout(function(){
+        // setTimeout(function(){
           $(refListGame.current).on('click', function(e){
             var order = $('.list-item').index(this);
             console.log(order);
@@ -49,23 +52,33 @@ export default function Home() {
               $('.list-header').fadeIn(100);
             })
           });
-        }, 100);
+        // }, 100);
 
         $(refListWrapper.current).on('touchstart', function(event){
           startPoint = event.changedTouches[0].clientY;
         });
       
         $(refListWrapper.current).on('touchend', function(event){
+          
           endPoint = event.changedTouches[0].clientY;
           const distance = startPoint - endPoint;
+          if(scrollPos<=0 && distance<0){
+            $('.list-wrapper').removeClass('list-wrapper-open');
+            $('.header-title').fadeOut(100);
+            $('.list-header').fadeIn(100);
+          }
           if (distance > 70) {
             $('.header-title').fadeIn(100);
             $('.list-header').fadeOut(100);
             $('.list-wrapper').addClass('list-wrapper-open');
           }
         });
-
-        setTimeout(function(){
+        $(refListGroupGame.current).on('scroll',function(event){
+          scrollPos = refListGroupGame.current.scrollTop
+          // alert(scrollPos)
+          // console.log(refListGroupGame.current.scrollTop);
+        })
+        // setTimeout(function(){
           $('.preview-detail-slider').on('changed.owl.carousel', function(e) {
             var slideIndex = e.page.index;
             var container = $('.list-group-inner');
@@ -87,7 +100,7 @@ export default function Home() {
           });
           
           $('.list-item').eq(0).addClass('active');
-        }, 200);
+        // }, 200);
           
         $(refBackButton.current).on('click', function(){
           $('.list-wrapper').removeClass('list-wrapper-open');
@@ -120,8 +133,8 @@ export default function Home() {
                 <p>{item.description}</p>
               </div>
             </div>
-            <Link href={`/detail/${index}`}>
-              <a className="btn rounded-pill">DETAIL</a>
+            <Link href={`/detail/${index}`} >
+              <a className="btn rounded-pill" onClick={()=>{ $('.container').removeClass('status')}}>DETAIL</a>
             </Link>
           </div>
         </div>
@@ -157,7 +170,7 @@ export default function Home() {
             <a className="see-all" role="button" ref={refSeeAll}>See All</a>
           </div>
 
-          <div className="list-group list-group-games">
+          <div className="list-group list-group-games" ref={refListGroupGame}>
             <ul className="list-group-inner">
               {games?
                 games.map((item, index) => (
@@ -187,9 +200,7 @@ export default function Home() {
                           <a className="btn btn-gray btn-pill">PLAY</a>
                         </Link>
                       )}
-                      {/* <Link href={item.link}>
-                        <a className="btn btn-gray btn-pill">PLAY</a>
-                      </Link> */}
+                   
                     </div>
                   </li>
                 ))
