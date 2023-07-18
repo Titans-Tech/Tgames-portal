@@ -11,7 +11,7 @@ import '../public/styles/bootstrap-icons.min.css';
 import '../public/styles/globals.css'
 
 const DynamicHeader = dynamic(() => import('../components/header'), {
-  loading: () => <p>Loading...</p>,
+  loading: () => <p className='loader'>Loading...</p>,
 });
 
 // const DynamicFooter = dynamic(() => import('../components/footer'), {
@@ -19,7 +19,7 @@ const DynamicHeader = dynamic(() => import('../components/header'), {
 // })
 
 const LoginForm = dynamic(() => import('../components/loginForm'), {
-  loading: () => <p>Loading...</p>,
+  loading: () => <p className='loader'>Loading...</p>,
 });
 
 function MyApp({ Component, pageProps }) {
