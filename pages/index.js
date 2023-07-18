@@ -38,7 +38,7 @@ export default function Home() {
       .then(response => response.json())
       .then(data => {
         setGames(data)
-        // setTimeout(function(){
+        setTimeout(function(){
           $(refListGame.current).on('click', function(e){
             var order = $('.list-item').index(this);
             console.log(order);
@@ -52,7 +52,7 @@ export default function Home() {
               $('.list-header').fadeIn(100);
             })
           });
-        // }, 100);
+        }, 100);
 
         $(refListWrapper.current).on('touchstart', function(event){
           startPoint = event.changedTouches[0].clientY;
@@ -73,13 +73,16 @@ export default function Home() {
             $('.list-wrapper').addClass('list-wrapper-open');
           }
         });
+
         $(refListGroupGame.current).on('scroll',function(event){
           scrollPos = refListGroupGame.current.scrollTop
           // alert(scrollPos)
           // console.log(refListGroupGame.current.scrollTop);
-        })
-        // setTimeout(function(){
+        });
+
+        setTimeout(function(){
           $('.preview-detail-slider').on('changed.owl.carousel', function(e) {
+            console.log(e.page.index);
             var slideIndex = e.page.index;
             var container = $('.list-group-inner');
             var scrollTo = $('.list-item').eq(slideIndex);
@@ -100,7 +103,7 @@ export default function Home() {
           });
           
           $('.list-item').eq(0).addClass('active');
-        // }, 200);
+        }, 200);
           
         $(refBackButton.current).on('click', function(){
           $('.list-wrapper').removeClass('list-wrapper-open');

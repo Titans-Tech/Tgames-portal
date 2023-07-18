@@ -14,20 +14,20 @@ const Header = ({seoTitle, seoDescription}) => {
         <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'></meta>
         {/* <!-- Google / Search Engine Tags --> */}
         <meta name="name" content="Titans Games"/>
-        <meta name="description" content="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
+        <meta name="description" content={seoDescription}/>
         <meta name="image" content="/images/titanstech.png"/>
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://games.titans.id"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Titans Games"/>
-        <meta property="og:description" content="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
+        <meta property="og:description" content={seoDescription}/>
         <meta property="og:image" content="https://dev.titans.id/cdn/titanstech.png"/>
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="Titans Games"/>
-        <meta name="twitter:description" content="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
+        <meta name="twitter:description" content={seoDescription}/>
         <meta name="twitter:image" content="https://dev.titans.id/cdn/titanstech.png"/>
 
         {/* <!-- PWA Stuff --> */}
