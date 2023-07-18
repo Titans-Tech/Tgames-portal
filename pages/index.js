@@ -26,11 +26,11 @@ export default function Home() {
   const refListWrapper = useRef(null);
   const refPreviewSlider = useRef(null);
   const refBackButton = useRef(null);
-  let scrollPos=0
   // alert(window.screen.availHeight+" "+window.innerHeight)
   useEffect(() => {
     var startPoint;
     var endPoint;
+    let scrollPos = 0;
     window.addEventListener('notch-detected', function(e) {
      alert(e+ "Notch detected, move shit around");
     });
