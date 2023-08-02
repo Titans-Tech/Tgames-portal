@@ -680,4 +680,8 @@ span[style*="box-sizing: border-box"]{
   .log-out{
     top: 84px;
   }
+
+  .list-group-games {
+    height: calc(100% - 66px - 42px);
+  }
 }
