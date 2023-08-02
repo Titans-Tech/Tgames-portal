@@ -56,8 +56,8 @@ function MyApp({ Component, pageProps }) {
       });
     }
 
-    bgm.stop();
-    bgm.play();
+    // bgm.stop();
+    // bgm.play();
 
     fetch("https://docs.google.com/spreadsheets/d/1eWrw8DgvNw5Rv6XXaBpncM0Okr4JuAjl6r2SHS28Px0/gviz/tq?&sheet=Sheet1")
     .then(response => response.text())
