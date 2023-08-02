@@ -57,9 +57,7 @@ function MyApp({ Component, pageProps }) {
     }
 
     bgm.stop();
-    setTimeout(function(){
-      bgm.play();
-    }, 200);
+    bgm.play();
 
     fetch("https://docs.google.com/spreadsheets/d/1eWrw8DgvNw5Rv6XXaBpncM0Okr4JuAjl6r2SHS28Px0/gviz/tq?&sheet=Sheet1")
     .then(response => response.text())
