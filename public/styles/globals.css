@@ -364,7 +364,7 @@ span[style*="box-sizing: border-box"]{
 .list-group-games{
   margin-left: -15px;
   margin-right: -15px;
-  height: calc(100% - 54px - 46px);
+  height: calc(100% - 54px - 56px);
   overflow: hidden;
 }
 
