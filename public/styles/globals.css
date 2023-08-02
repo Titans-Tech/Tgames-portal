@@ -681,6 +681,6 @@ span[style*="box-sizing: border-box"]{
   }
 
   .list-group-games {
-    height: calc(100% - 66px - 42px);
+    height: calc(100% - 74px - 42px);
   }
 }
