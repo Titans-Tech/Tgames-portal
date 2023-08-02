@@ -198,7 +198,6 @@ span[style*="box-sizing: border-box"]{
   padding-right: 0;
   background-color: #fff;
   position: relative;
-  height: 100vh;
 }
 
 .container-home{
@@ -544,7 +543,7 @@ span[style*="box-sizing: border-box"]{
   left: 0;
   bottom: 0;
   padding-top: 47px;
-  height: 270px;
+  height: 42vh;
   z-index: 2;
 }
 
