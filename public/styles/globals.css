@@ -675,11 +675,12 @@ span[style*="box-sizing: border-box"]{
     /* top: 26px; */
   }
 }
-@supports (-webkit-touch-callout: none) {
+
+/* @supports (-webkit-touch-callout: none) {
   .status{
     top:80px!important;
   }
   .detail-content{
     bottom: 80px 
   }
- }
+ } */
