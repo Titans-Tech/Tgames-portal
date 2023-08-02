@@ -678,6 +678,6 @@ span[style*="box-sizing: border-box"]{
 
 @supports (-webkit-touch-callout: none) {
   .log-out{
-    top: 58px;
+    top: 84px;
   }
 }
