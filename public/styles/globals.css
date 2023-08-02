@@ -185,7 +185,7 @@ span[style*="box-sizing: border-box"]{
 .log-out{
   font-family: 'Graphik Medium';
   position: absolute;
-  top: 58px;
+  top: 14px;
   right: 14px;
   font-size: 15px;
   width: max-content;
@@ -676,11 +676,8 @@ span[style*="box-sizing: border-box"]{
   }
 }
 
-/* @supports (-webkit-touch-callout: none) {
-  .status{
-    top:80px!important;
+@supports (-webkit-touch-callout: none) {
+  .log-out{
+    top: 58px;
   }
-  .detail-content{
-    bottom: 80px 
-  }
- } */
+}
