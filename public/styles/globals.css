@@ -143,6 +143,11 @@ h1, h2, h3, h4{
   color: #000;
 }
 
+.form-login{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
 .btn-login{
   min-width: 174.5px;
   background: linear-gradient(95.59deg, #2D8DCE -11.11%, #A4FFFF 84.35%, #52B0DD 109.62%);
@@ -177,11 +182,19 @@ span[style*="box-sizing: border-box"]{
 }
 
 span[style*="box-sizing: border-box"] > img{
-  min-width: unset !important;
-  max-width: unset !important;
+  position: relative !important;
+}
+
+span[style*="box-sizing: border-box"] > img[class*="w-100 h-auto"]{
+  min-width: 100% !important;
   min-height: unset !important;
   max-height: unset !important;
-  position: relative !important;
+}
+
+span[style*="box-sizing: border-box"] > img[class*="w-auto h-100"]{
+  min-height: 100% !important;
+  min-width: unset !important;
+  max-width: unset !important;
 }
 
 span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
