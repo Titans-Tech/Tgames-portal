@@ -49,8 +49,8 @@
     "name": "Dikejar Ondel",
     "link": "https://ondelondel.titans.id",
     "icon": "/images/ondel-icon.png",
-    "image": "",
-    "bg": "/images/ondel-preview.png",
+    "image": "/images/Thumbnail-Games-dikejar-ondel.png",
+    "bg": "/images/Background-Games-dikejar-ondel.png",
     "description": "Select card as soon as possible to get a luck card to avoid ondel ondel theft!"
   },
   {
@@ -76,8 +76,8 @@
     "name": "Germa Shoot - AR Game",
     "link": "https://games.titans.id/germashoot",
     "icon": "/images/germashoot-icon.png",
-    "image": "",
-    "bg": "/images/germashoot-preview.png",
+    "image": "/images/Thumbnail-Games-germashoot.png",
+    "bg": "/images/Background-Games-germashoot.png",
     "description": "Clean the germs in your room by shooting them with a soap gun and get as much score as you can!"
   },
   {
@@ -112,8 +112,8 @@
     "name": "Icip-Icip",
     "link": "https://games.titans.id/icip-icip",
     "icon": "/images/icipicip-icon.jpg",
-    "image": "",
-    "bg": "/images/icipicip-preview.png",
+    "image": "/images/Thumbnail-Games-icip.png",
+    "bg": "/images/Background-Games-icip.png",
     "description": "Put all the skewers on to the grill and make sure they don't overlap"
   },
   {
@@ -130,8 +130,8 @@
     "name": "Flip The Bottle",
     "link": "https://games.titans.id/bottle-flip-3d",
     "icon": "/images/flipthebottle-icon.jpg",
-    "image": "",
-    "bg": "/images/flipthebottle-preview.jpg",
+    "image": "/images/Thumbnail-Games-bottle-flip.png",
+    "bg": "/images/Background-Games-bottle-flip.png",
     "description": "Inspired from the viral internet challenge, flip the bottle until the end of the level!"
   },
   {
