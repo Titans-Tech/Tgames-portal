@@ -125,7 +125,18 @@ export default function Home() {
     <OwlCarousel items={1} margin={0} autoplay={false} className="preview-detail-slider owl-theme" ref={refPreviewSlider} dots={true}>
       {games.map((item, index) => (
         <div className="detail-section" key={index}>
-          <Image className="w-100 h-auto" width={620} height={1400} src={item.image} alt=""/>
+          {item.image ?
+            (
+            <>
+              <Image className="w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
+              <div className="image-phone">
+                <Image className="w-auto h-100" width={620} height={1400} src={item.image} alt=""/>
+              </div>
+            </>
+            )
+            :
+            <Image className=" w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
+          }
           <div className="detail">
             <div className="d-flex">
               <div className="detail-icon">

@@ -54,6 +54,7 @@
 
 html, body{
   overflow: hidden;
+  height: 100%;
 }
 
 body{
@@ -167,16 +168,24 @@ h1, h2, h3, h4{
 }
 
 /* for next js */
-span[style*="box-sizing: border-box"] > img[class*="w-100 h-auto"]{
-  min-width: 100% !important;
-  min-height: unset !important;
-  max-height: unset !important;
-  bottom: unset !important;
+span[style*="box-sizing: border-box"]{
+  overflow: unset !important;
+  display: block !important;
+  max-width: unset !important;
+  height: 100% !important;
+  position: unset !important;
 }
 
-span[style*="box-sizing: border-box"]{
-  overflow: visible !important;
-  display: block !important;
+span[style*="box-sizing: border-box"] > img{
+  min-width: unset !important;
+  max-width: unset !important;
+  min-height: unset !important;
+  max-height: unset !important;
+  position: relative !important;
+}
+
+span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
+  display: none !important;
 }
 
 .title{
@@ -198,12 +207,19 @@ span[style*="box-sizing: border-box"]{
   z-index: 3;
 }
 
+#__next{
+  height: 100%;
+}
+
 .container{
   padding-left: 0;
   padding-right: 0;
   background-color: #fff;
   position: relative;
-  height: 100vh;
+}
+
+.container, .list-page{
+  height: 100%;
 }
 
 .container-home{
@@ -229,10 +245,11 @@ span[style*="box-sizing: border-box"]{
 .detail-wrapper{
   overflow: hidden;
   background-color: #000;
+  height: 62%;
 }
 
-.preview-detail-slider .owl-item{
-  height: 62vh !important;
+.owl-carousel, .owl-stage-outer, .owl-stage, .preview-detail-slider .owl-item{
+  height: 100%;
 }
 
 .preview-detail-slider .owl-item img{
@@ -255,13 +272,13 @@ span[style*="box-sizing: border-box"]{
   color: #fff;
   font-family: 'Graphik Semi Bold';
   font-weight: 600;
-  font-size: 47px;
-  line-height: 61px;
+  font-size: 41px;
+  line-height: 46px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 74px 30px 30px;
+  padding: 32px 30px 30px;
   z-index: 2;
   background: linear-gradient(180deg,rgba(0,0,0,.75) 0,transparent);
 }
@@ -269,6 +286,14 @@ span[style*="box-sizing: border-box"]{
 .detail-section{
   position: relative;
   height: 100%;
+}
+
+.detail-section .image-phone{
+  position: absolute !important;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .detail-section .detail{
@@ -342,29 +367,29 @@ span[style*="box-sizing: border-box"]{
 
 .list-wrapper{
   width: 100%;
-  height: 38vh;
-  top: calc(100% - 38vh);
+  height: 38%;
+  bottom: 0;
   position: absolute;
   left: 0;
   padding: 0 15px;
   background-color: #fff;
   z-index: 3;
-  transition: top 0.3s, height 0.3s;
+  transition: bottom 0.3s, height 0.3s;
 }
 
 .list-wrapper.list-wrapper-open{
-  height: 100vh;
-  top: 0;
+  height: 100%;
 }
 
 .list-group-inner{
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .list-group-games{
   margin-left: -15px;
   margin-right: -15px;
-  height: calc(100% - 54px - 56px);
+  height: calc(100% - 54px);
   overflow: hidden;
 }
 

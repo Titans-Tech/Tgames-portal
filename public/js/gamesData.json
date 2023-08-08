@@ -4,7 +4,8 @@
     "name": "Ketapel Buah",
     "link": "https://games.titans.id/ketapel-buah",
     "icon": "/images/ketapel-icon.png",
-    "image": "/images/ketapel-preview.png",
+    "image": "",
+    "bg": "/images/ketapel-preview.png",
     "description": "Fruit Puzzle Bobble: shoot and match fruit bubbles to clear the wall before it reaches the bottom."
   },
   {
@@ -12,7 +13,8 @@
     "name": "Hantu Smash",
     "link": "https://hantusmash.titans.id",
     "icon": "/images/hantu-icon.png",
-    "image": "/images/hantu-preview.png",
+    "image": "/images/NewThumb_HantuSmash_ScreenTitle.png",
+    "bg": "/images/NewThumb_HantuSmash_BG.png",
     "description": "Tap the right button to smash the ghost. With increasing difficulty and speed, players must act fast to score points before time runs out. Are you up for the ghostly challenge?"
   },
   {
@@ -20,7 +22,8 @@
     "name": "Kelilingan",
     "link": "https://games.titans.id/kelilingan",
     "icon": "/images/kelilingan-icon.png",
-    "image": "/images/kelilingan-preview.png",
+    "image": "",
+    "bg": "/images/kelilingan-preview.png",
     "description": "Get ready to flip and score big! Our new game challenges you to flip wooden dolls across a variety of vehicles for maximum points. How far can you go?"
   },
   {
@@ -28,7 +31,8 @@
     "name": "Tanggar Leak",
     "link": "https://games.titans.id/tangar-leak",
     "icon": "/images/leak-icon.png",
-    "image": "/images/leak-preview.png",
+    "image": "",
+    "bg": "/images/leak-preview.png",
     "description": "Jump on the platforms to get higher and higher and earn more points! Watch out for the Leak monster lurking below. Quick reflexes are needed to outmaneuver the beast and reach the end goal. Can you reach the highest score?"
   },
   {
@@ -36,7 +40,8 @@
     "name": "Bikkelen",
     "link": "https://games.titans.id/bikkelen",
     "icon": "/images/bikkelen-icon.png",
-    "image": "/images/bikkelen-preview.png",
+    "image": "",
+    "bg": "/images/bikkelen-preview.png",
     "description": "Aim, shoot, score! Our new game combines the thrill of basketball with the fun of pinball. Get ready for an action-packed challenge full of obstacles and big scores."
   },
   {
@@ -44,7 +49,8 @@
     "name": "Dikejar Ondel",
     "link": "https://ondelondel.titans.id",
     "icon": "/images/ondel-icon.png",
-    "image": "/images/ondel-preview.png",
+    "image": "",
+    "bg": "/images/ondel-preview.png",
     "description": "Select card as soon as possible to get a luck card to avoid ondel ondel theft!"
   },
   {
@@ -52,7 +58,8 @@
     "name": "Bayar Utang",
     "link": "https://games.titans.id/bayar-utang",
     "icon": "/images/bayarutang-icon.png",
-    "image": "/images/bayarutang-preview.png",
+    "image": "/images/NewThumb_BayarUtang_ScreenTitle.png",
+    "bg": "/images/NewThumb_BayarUtang_BG.png",
     "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
   },
   {
@@ -60,7 +67,8 @@
     "name": "Scare The Crow",
     "link": "https://games.titans.id/scare-the-crow",
     "icon": "/images/scarecrow-icon.png",
-    "image": "/images/scarecrow-preview.png",
+    "image": "",
+    "bg": "/images/scarecrow-preview.png",
     "description": "Scare away the crows from the corn plants! Test your reflexes in this new take from the classic whack-a-mole."
   },
   {
@@ -68,7 +76,8 @@
     "name": "Germa Shoot - AR Game",
     "link": "https://games.titans.id/germashoot",
     "icon": "/images/germashoot-icon.png",
-    "image": "/images/germashoot-preview.png",
+    "image": "",
+    "bg": "/images/germashoot-preview.png",
     "description": "Clean the germs in your room by shooting them with a soap gun and get as much score as you can!"
   },
   {
@@ -76,7 +85,8 @@
     "name": "Feed The Orangutan - AR Game",
     "link": "https://games.titans.id/feed-the-orangutan/",
     "icon": "/images/orangutan-icon.png",
-    "image": "/images/orangutan-preview.png",
+    "image": "",
+    "bg": "/images/orangutan-preview.png",
     "description": "Aim, shoot, score! Feed the Orangutan all the good fruits and get the highest score in this unique Augmented Reality game."
   },
   {
@@ -84,7 +94,8 @@
     "name": "Pusmeng",
     "link": "https://games.titans.id/pusmeng",
     "icon": "/images/pusmeng-icon.png",
-    "image": "/images/pusmeng-preview.png",
+    "image": "",
+    "bg": "/images/pusmeng-preview.png",
     "description": "Test your reflexes as you jump and slide through the obstacles! Careful not to get caught!"
   },
   {
@@ -92,7 +103,8 @@
     "name": "Panen Jagung",
     "link": "https://games.titans.id/panen-jagung",
     "icon": "/images/panenjagung-icon.png",
-    "image": "/images/panenjagung-preview.png",
+    "image": "",
+    "bg": "/images/panenjagung-preview.png",
     "description": "Harvest all the corn but watch out for those pesky rats!"
   },
   {
@@ -100,7 +112,8 @@
     "name": "Icip-Icip",
     "link": "https://games.titans.id/icip-icip",
     "icon": "/images/icipicip-icon.jpg",
-    "image": "/images/icipicip-preview.png",
+    "image": "",
+    "bg": "/images/icipicip-preview.png",
     "description": "Put all the skewers on to the grill and make sure they don't overlap"
   },
   {
@@ -108,7 +121,8 @@
     "name": "Mancing Yuk",
     "link": "https://fishing.titans.id",
     "icon": "/images/mancingyuk-icon.jpg",
-    "image": "/images/mancingyuk-preview.png",
+    "image": "/images/NewThumb_MancingYuk_ScreenTitle.png",
+    "bg": "/images/NewThumb_MancingYuk_BG.png",
     "description": "Be the number 1 fisherman in this multiplayer game! The player with the most fish caught wins the game."
   },
   {
@@ -116,7 +130,8 @@
     "name": "Flip The Bottle",
     "link": "https://games.titans.id/bottle-flip-3d",
     "icon": "/images/flipthebottle-icon.jpg",
-    "image": "/images/flipthebottle-preview.jpg",
+    "image": "",
+    "bg": "/images/flipthebottle-preview.jpg",
     "description": "Inspired from the viral internet challenge, flip the bottle until the end of the level!"
   },
   {
@@ -124,7 +139,8 @@
     "name": "Warna Nusantara",
     "link": "https://games.titans.id/warna-nusantara",
     "icon": "/images/warnanusantara-icon.jpg",
-    "image": "/images/warnanusantara-preview.jpg",
+    "image": "/images/NewThumb_WarnaNusantara_ScreenTitle.png",
+    "bg": "/images/NewThumb_WarnaNusantara_BG.png",
     "description": "Tap the screen and make sure you pass through the same color as your character!"
   }
 ]
