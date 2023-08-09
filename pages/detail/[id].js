@@ -51,7 +51,18 @@ export default function Detail() {
               </Link>
             </div>
             <div className="detail-content-image detail-wrapper position-relative">
-              <Image className="w-100 h-auto" width={1200} height={1200} src={gameId.image} alt=""/>
+            {gameId.image ?
+              (
+              <>
+                <Image className="w-100 h-auto" width={620} height={1400} src={gameId.bg} alt=""/>
+                <div className="image-phone">
+                  <Image className="w-auto h-100" width={620} height={1400} src={gameId.image} alt=""/>
+                </div>
+              </>
+              )
+              :
+              <Image className=" w-100 h-auto" width={620} height={1400} src={gameId.bg} alt=""/>
+            }
               <div className="detail-content">
                 <span className="share-btn bi bi-box-arrow-up"></span>
                 <div className="detail-content-icon">
@@ -69,7 +80,7 @@ export default function Detail() {
           </div>
         )
         :
-        <div className="loading-element">Loading...</div>
+        <div className="loader">Loading...</div>
       }
     </>
   )

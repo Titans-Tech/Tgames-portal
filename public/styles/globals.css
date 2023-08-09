@@ -305,7 +305,7 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
   height: 100%;
 }
 
-.detail-section .image-phone{
+.image-phone{
   position: absolute !important;
   height: 100%;
   top: 0;
@@ -593,7 +593,7 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
   left: 0;
   bottom: 0;
   padding-top: 47px;
-  height: 42vh;
+  height: 38%;
   z-index: 2;
 }
 

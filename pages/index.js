@@ -164,7 +164,7 @@ export default function Home() {
           {games?
             <CarouselDetail/>
             :
-            <div className="loading-element">Loading...</div>
+            <div className="loader">Loading...</div>
           }
         </div>
         <div className="list-wrapper" ref={refListWrapper}>
@@ -216,7 +216,7 @@ export default function Home() {
                   </li>
                 ))
                 :
-                <div className="loading-element">Loading...</div>
+                <div className="loader">Loading...</div>
               }
             </ul>
           </div>
