@@ -519,6 +519,13 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
   overflow: hidden;
 }
 
+.list-wrapper .list-desc p > span.opened{
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: unset;
+  overflow: unset;
+}
+
 .header{
   width: 100%;
   padding-left: 15px;

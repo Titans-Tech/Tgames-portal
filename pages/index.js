@@ -113,7 +113,11 @@ export default function Home() {
           $('.header-title').fadeIn(100);
           $('.list-header').fadeOut(100);
         });
-  
+
+        $('.list-wrapper .list-desc p > a[role="button"]').on('click', function(){
+          $(this).prev('span').toggleClass('opened');
+          $(this).text($(this).text() === 'Show Less' ? 'More' : 'Show Less');
+        });
       });
 
   }, []);
@@ -197,7 +201,7 @@ export default function Home() {
                             <h3>{item.name}</h3>
                             <p>
                               <span>{item.description}</span>
-                              <a role="button" href="#">more</a>
+                              <a role="button" href="#">More</a>
                             </p>
                           </div>
                         </div>
