@@ -41,7 +41,6 @@ export default function Home() {
         setTimeout(function(){
           $(refListGame.current).on('click', function(e){
             var order = $('.list-item').index(this);
-            console.log(order);
             $('.list-item').removeClass('active')
             $(this).addClass('active');
             $('.detail-section').fadeOut(300, function(){
@@ -82,7 +81,6 @@ export default function Home() {
 
         setTimeout(function(){
           $('.preview-detail-slider').on('changed.owl.carousel', function(e) {
-            console.log(e.page.index);
             var slideIndex = e.page.index;
             var container = $('.list-group-inner');
             var scrollTo = $('.list-item').eq(slideIndex);
@@ -99,7 +97,6 @@ export default function Home() {
         
             $('.list-item').removeClass('active');
             $('.list-item').eq(slideIndex).addClass('active');
-            console.log(position);
           });
           
           $('.list-item').eq(0).addClass('active');
