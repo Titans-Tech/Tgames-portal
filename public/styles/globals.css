@@ -172,6 +172,10 @@ h1, h2, h3, h4{
   font-size: 13px;
 }
 
+span[style*="box-sizing: border-box"] > img[src*="Thumbnail-Games-dikejar-ondel.png"] {
+  margin-top: 10vh !important;
+}
+
 /* for next js */
 span[style*="box-sizing: border-box"]{
   overflow: unset !important;
