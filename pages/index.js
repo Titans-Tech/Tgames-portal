@@ -177,11 +177,11 @@ export default function Home() {
               <a className="back" ref={refBackButton}>
                 <i className="bi bi-chevron-left"></i>
               </a>
-              Titans Tech Game for You
+              Titans Tech Games
             </h3>
           </div>
           <div className="list-header">
-            <h2 className="title">Top Games</h2>
+            <h2 className="title">Titans Tech Games</h2>
             <a className="see-all" role="button" ref={refSeeAll}>See All</a>
           </div>
 

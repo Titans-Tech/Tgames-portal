@@ -286,6 +286,7 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
 }
 
 .detail-wrapper > h1{
+  display: none;
   color: #fff;
   font-family: 'Graphik Semi Bold';
   font-weight: 600;
