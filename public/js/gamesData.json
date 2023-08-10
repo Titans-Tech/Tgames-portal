@@ -4,8 +4,8 @@
     "name": "Ketapel Buah",
     "link": "https://games.titans.id/ketapel-buah",
     "icon": "/images/ketapel-icon.png",
-    "image": "",
-    "bg": "/images/ketapel-preview.png",
+    "image": "/images/thumbnail-ketapel-buah.png",
+    "bg": "/images/bg-ketapel-buah.png",
     "description": "Fruit Puzzle Bobble: shoot and match fruit bubbles to clear the wall before it reaches the bottom."
   },
   {
@@ -22,8 +22,8 @@
     "name": "Kelilingan",
     "link": "https://games.titans.id/kelilingan",
     "icon": "/images/kelilingan-icon.png",
-    "image": "",
-    "bg": "/images/kelilingan-preview.png",
+    "image": "/images/thumbnail-kelilingan.png",
+    "bg": "/images/bg-kelilingan.png",
     "description": "Get ready to flip and score big! Our new game challenges you to flip wooden dolls across a variety of vehicles for maximum points. How far can you go?"
   },
   {
@@ -31,8 +31,8 @@
     "name": "Tanggar Leak",
     "link": "https://games.titans.id/tangar-leak",
     "icon": "/images/leak-icon.png",
-    "image": "",
-    "bg": "/images/leak-preview.png",
+    "image": "/images/thumbnail-tangar-leak.png",
+    "bg": "/images/bg-tangar-leak.png",
     "description": "Jump on the platforms to get higher and higher and earn more points! Watch out for the Leak monster lurking below. Quick reflexes are needed to outmaneuver the beast and reach the end goal. Can you reach the highest score?"
   },
   {
@@ -40,8 +40,8 @@
     "name": "Bikkelen",
     "link": "https://games.titans.id/bikkelen",
     "icon": "/images/bikkelen-icon.png",
-    "image": "",
-    "bg": "/images/bikkelen-preview.png",
+    "image": "/images/thumbnail-bikkelen.png",
+    "bg": "/images/bg-bikkelen.png",
     "description": "Aim, shoot, score! Our new game combines the thrill of basketball with the fun of pinball. Get ready for an action-packed challenge full of obstacles and big scores."
   },
   {
@@ -67,8 +67,8 @@
     "name": "Scare The Crow",
     "link": "https://games.titans.id/scare-the-crow",
     "icon": "/images/scarecrow-icon.png",
-    "image": "",
-    "bg": "/images/scarecrow-preview.png",
+    "image": "/images/thumbnail-scare-the-crow.png",
+    "bg": "/images/bg-scare-the-crow.png",
     "description": "Scare away the crows from the corn plants! Test your reflexes in this new take from the classic whack-a-mole."
   },
   {
@@ -85,8 +85,8 @@
     "name": "Feed The Orangutan - AR Game",
     "link": "https://games.titans.id/feed-the-orangutan/",
     "icon": "/images/orangutan-icon.png",
-    "image": "",
-    "bg": "/images/orangutan-preview.png",
+    "image": "/images/thumbnail-orang-utan.png",
+    "bg": "/images/bg-orang-utan.png",
     "description": "Aim, shoot, score! Feed the Orangutan all the good fruits and get the highest score in this unique Augmented Reality game."
   },
   {
@@ -94,8 +94,8 @@
     "name": "Pusmeng",
     "link": "https://games.titans.id/pusmeng",
     "icon": "/images/pusmeng-icon.png",
-    "image": "",
-    "bg": "/images/pusmeng-preview.png",
+    "image": "/images/thumbnail-pusmeng.png",
+    "bg": "/images/bg-pusmeng.png",
     "description": "Test your reflexes as you jump and slide through the obstacles! Careful not to get caught!"
   },
   {
@@ -103,8 +103,8 @@
     "name": "Panen Jagung",
     "link": "https://games.titans.id/panen-jagung",
     "icon": "/images/panenjagung-icon.png",
-    "image": "",
-    "bg": "/images/panenjagung-preview.png",
+    "image": "/images/thumbnail-panen-jagung.png",
+    "bg": "/images/bg-panen-jagung.png",
     "description": "Harvest all the corn but watch out for those pesky rats!"
   },
   {
