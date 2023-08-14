@@ -109,7 +109,7 @@ a{
 .container-icons .slider {
   display: flex;
   width: calc(96px * 36);
-  animation: bannermove 9s linear infinite;
+  animation: bannermove 20s linear infinite;
 }
 
 .container-icons .section {
@@ -362,7 +362,6 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
 }
 
 .detail-section{
-  position: relative;
   height: 100%;
 }
 
