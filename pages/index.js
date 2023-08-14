@@ -123,38 +123,177 @@ export default function Home() {
   }, []);
 
   const CarouselDetail = () => (
-    <OwlCarousel items={1} margin={0} autoplay={false} className="preview-detail-slider owl-theme" ref={refPreviewSlider} dots={true}>
-      {games.map((item, index) => (
-        <div className="detail-section" key={index}>
-          {item.image ?
-            (
-            <>
-              <Image className="w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
-              <div className="image-phone">
-                <Image className="w-auto h-100" width={620} height={1400} src={item.image} alt=""/>
-              </div>
-            </>
-            )
-            :
-            <Image className=" w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
-          }
-          <div className="detail">
-            <div className="d-flex">
-              <div className="detail-icon">
-                <Image className="w-100 h-auto" width={620} height={620} src={item.icon} alt=""/>
-              </div>
-              <div className="detail-info d-flex justify-content-center flex-column">
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
-              </div>
+    <>
+      <div className="container-icons">
+        <div className="wrapper">
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
             </div>
-            <Link href={`/detail/${index}`} >
-              <a className="btn rounded-pill" onClick={()=>{ $('.container').removeClass('status')}}>DETAIL</a>
-            </Link>
-          </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+          </article>
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+              </ul>
+            </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+              </ul>
+            </div>
+          </article>
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+          </article>
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+              </ul>
+            </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+              </ul>
+            </div>
+          </article>
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+          </article>
+          <article className="slider">
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+              </ul>
+            </div>
+            <div className="section">
+              <ul>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+              </ul>
+            </div>
+          </article>
         </div>
-      ))}
-    </OwlCarousel>
+      </div>
+      <OwlCarousel items={1} margin={0} autoplay={false} className="preview-detail-slider owl-theme" ref={refPreviewSlider} dots={true}>
+        {games.map((item, index) => (
+          <div className="detail-section" key={index}>
+            {/* {item.image ?
+              (
+              <>
+                <Image className="w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
+                <div className="image-phone">
+                  <Image className="w-auto h-100" width={620} height={1400} src={item.image} alt=""/>
+                </div>
+              </>
+              )
+              :
+              <Image className=" w-100 h-auto" width={620} height={1400} src={item.bg} alt=""/>
+            } */}
+            <Image className="w-auto h-100" width={620} height={1400} src={item.image} alt=""/>
+            <div className="detail">
+              <div className="d-flex">
+                <div className="detail-icon">
+                  <Image className="w-100 h-auto" width={620} height={620} src={item.icon} alt=""/>
+                </div>
+                <div className="detail-info d-flex justify-content-center flex-column">
+                  <h2>{item.name}</h2>
+                  <p>{item.description}</p>
+                </div>
+              </div>
+              <Link href={`/detail/${index}`} >
+                <a className="btn rounded-pill" onClick={()=>{ $('.container').removeClass('status')}}>DETAIL</a>
+              </Link>
+            </div>
+          </div>
+        ))}
+      </OwlCarousel>
+    </>
   )
 
   return (

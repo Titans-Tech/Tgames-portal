@@ -86,6 +86,65 @@ a{
   cursor: pointer;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+.container-icons{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.8;
+}
+
+.container-icons .wrapper {
+  transform: rotate(-80deg);
+}
+
+.container-icons .slider {
+  display: flex;
+  width: calc(110px * 12);
+  animation: bannermove 3.5s linear infinite;
+}
+
+.container-icons .section {
+  width: calc(110px * 6);
+  display: flex;
+}
+
+.container-icons .section ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-icons .section ul li{
+  margin: 10px;
+  width: 90px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.container-icons .section ul li img {
+  height: 100%;
+  transform: rotate(90deg);
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .hide{
   display: none;
 }
@@ -263,6 +322,7 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
   overflow: hidden;
   background-color: #000;
   height: 62%;
+  position: relative;
 }
 
 .owl-carousel, .owl-stage-outer, .owl-stage, .preview-detail-slider .owl-item{
@@ -270,7 +330,7 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
 }
 
 .preview-detail-slider .owl-item img{
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .preview-detail-slider .owl-dots {
