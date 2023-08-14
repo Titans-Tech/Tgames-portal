@@ -135,6 +135,18 @@ export default function Home() {
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
               </ul>
             </div>
             <div className="section">
@@ -145,12 +157,36 @@ export default function Home() {
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
               </ul>
             </div>
           </article>
           <article className="slider">
             <div className="section">
               <ul>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
@@ -161,6 +197,18 @@ export default function Home() {
             </div>
             <div className="section">
               <ul>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
@@ -179,6 +227,18 @@ export default function Home() {
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
               </ul>
             </div>
             <div className="section">
@@ -189,12 +249,36 @@ export default function Home() {
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
               </ul>
             </div>
           </article>
           <article className="slider">
             <div className="section">
               <ul>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>
@@ -205,6 +289,18 @@ export default function Home() {
             </div>
             <div className="section">
               <ul>
+                <li><img src="/images/slider-icons/icon_set-18.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-17.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-16.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-15.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-14.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-13.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-12.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-11.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-10.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-09.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-08.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-07.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-04.png" /></li>

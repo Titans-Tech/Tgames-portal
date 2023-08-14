@@ -99,7 +99,7 @@ a{
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .container-icons .wrapper {
@@ -108,12 +108,12 @@ a{
 
 .container-icons .slider {
   display: flex;
-  width: calc(110px * 12);
+  width: calc(110px * 36);
   animation: bannermove 3.5s linear infinite;
 }
 
 .container-icons .section {
-  width: calc(110px * 6);
+  width: calc(110px * 18);
   display: flex;
 }
 
