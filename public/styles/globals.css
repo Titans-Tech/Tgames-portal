@@ -660,7 +660,8 @@ span[style*="box-sizing: border-box"] > span[style*="box-sizing: border-box"]{
   left: 0;
   bottom: 0;
   padding-top: 47px;
-  height: 38%;
+  height: 33%;
+  min-height: 280px;
   z-index: 2;
 }
 
