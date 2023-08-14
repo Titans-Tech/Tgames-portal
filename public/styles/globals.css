@@ -108,12 +108,12 @@ a{
 
 .container-icons .slider {
   display: flex;
-  width: calc(110px * 36);
+  width: calc(96 * 36);
   animation: bannermove 3.5s linear infinite;
 }
 
 .container-icons .section {
-  width: calc(110px * 18);
+  width: calc(96 * 18);
   display: flex;
 }
 
@@ -125,8 +125,8 @@ a{
 }
 
 .container-icons .section ul li{
-  margin: 10px;
-  width: 90px;
+  margin: 8px;
+  width: 80px;
   aspect-ratio: 1/1;
   overflow: hidden;
 }
