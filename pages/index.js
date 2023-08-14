@@ -249,12 +249,12 @@ export default function Home() {
             </div>
             <div className="section">
               <ul>
-                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
-                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
-                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
-                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
-                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
                 <li><img src="/images/slider-icons/icon_set-06.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-05.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-04.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-03.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-02.png" /></li>
+                <li><img src="/images/slider-icons/icon_set-01.png" /></li>
               </ul>
             </div>
           </article>
