@@ -103,17 +103,17 @@ a{
 }
 
 .container-icons .wrapper {
-  transform: rotate(-80deg);
+  transform: translateY(6%) rotate(-80deg);
 }
 
 .container-icons .slider {
   display: flex;
-  width: calc(96 * 36);
-  animation: bannermove 3.5s linear infinite;
+  width: calc(96px * 36);
+  animation: bannermove 9s linear infinite;
 }
 
 .container-icons .section {
-  width: calc(96 * 18);
+  width: calc(96px * 18);
   display: flex;
 }
 
