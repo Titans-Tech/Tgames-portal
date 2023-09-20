@@ -142,5 +142,14 @@
     "image": "/images/NewThumb_WarnaNusantara_ScreenTitle.png",
     "bg": "/images/NewThumb_WarnaNusantara_BG.png",
     "description": "Tap the screen and make sure you pass through the same color as your character!"
+  },
+  {
+    "id": 16,
+    "name": "Racikan Bli",
+    "link": "https://games.titans.id/racikan-bli/",
+    "icon": "/images/racikanbli-icon.png",
+    "image": "/images/thumb-racikanbli.png",
+    "bg": "/images/racikanbli-preview.png",
+    "description": "Cook authentic Indonesian dishes with Bli and introduce their deliciousness to the world!"
   }
 ]
