@@ -9,7 +9,7 @@
     "description": "Fruit Puzzle Bobble: shoot and match fruit bubbles to clear the wall before it reaches the bottom."
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Kelilingan",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/bottle-flip/index.html",
     "icon": "/images/kelilingan-icon.png",
@@ -18,7 +18,7 @@
     "description": "Get ready to flip and score big! Our new game challenges you to flip wooden dolls across a variety of vehicles for maximum points. How far can you go?"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Tanggar Leak",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/EndlessPlatformJump/index.html",
     "icon": "/images/leak-icon.png",
@@ -27,7 +27,7 @@
     "description": "Jump on the platforms to get higher and higher and earn more points! Watch out for the Leak monster lurking below. Quick reflexes are needed to outmaneuver the beast and reach the end goal. Can you reach the highest score?"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Bikkelen",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/pinbal-basket/index.html",
     "icon": "/images/bikkelen-icon.png",
@@ -36,7 +36,7 @@
     "description": "Aim, shoot, score! Our new game combines the thrill of basketball with the fun of pinball. Get ready for an action-packed challenge full of obstacles and big scores."
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Bayar Utang",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/BayarUtang/index.html",
     "icon": "/images/bayarutang-icon.png",
@@ -45,7 +45,7 @@
     "description": "Help the characters cross the roads of Jakarta and get to the bank to pay their debts. Watch out for the menacing vehicles!"
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "Scare The Crow",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/scarecrow/index.html",
     "icon": "/images/scarecrow-icon.png",
@@ -54,7 +54,7 @@
     "description": "Scare away the crows from the corn plants! Test your reflexes in this new take from the classic whack-a-mole."
   },
   {
-    "id": 8,
+    "id": 6,
     "name": "Germa Shoot - AR Game",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/GermaShoot/index.html",
     "icon": "/images/germashoot-icon.png",
@@ -63,7 +63,7 @@
     "description": "Clean the germs in your room by shooting them with a soap gun and get as much score as you can!"
   },
   {
-    "id": 9,
+    "id": 7,
     "name": "Feed The Orangutan - AR Game",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/throw-fruits/index.html",
     "icon": "/images/orangutan-icon.png",
@@ -72,7 +72,7 @@
     "description": "Aim, shoot, score! Feed the Orangutan all the good fruits and get the highest score in this unique Augmented Reality game."
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Pusmeng",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/Pusmeng/index.html",
     "icon": "/images/pusmeng-icon.png",
@@ -81,7 +81,7 @@
     "description": "Test your reflexes as you jump and slide through the obstacles! Careful not to get caught!"
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "Panen Jagung",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/PanenJagung/templates/game.html",
     "icon": "/images/panenjagung-icon.png",
@@ -90,7 +90,7 @@
     "description": "Harvest all the corn but watch out for those pesky rats!"
   },
   {
-    "id": 12,
+    "id": 10,
     "name": "Icip-Icip",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/Icip-Icip/index.html",
     "icon": "/images/icipicip-icon.jpg",
@@ -99,7 +99,7 @@
     "description": "Put all the skewers on to the grill and make sure they don't overlap"
   },
   {
-    "id": 14,
+    "id": 11,
     "name": "Flip The Bottle",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/bottle-flip-3d/index.html",
     "icon": "/images/flipthebottle-icon.jpg",
@@ -108,7 +108,7 @@
     "description": "Inspired from the viral internet challenge, flip the bottle until the end of the level!"
   },
   {
-    "id": 15,
+    "id": 12,
     "name": "Warna Nusantara",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Dwiky/Warna%20Nusantara/index.html",
     "icon": "/images/warnanusantara-icon.jpg",
@@ -117,7 +117,7 @@
     "description": "Tap the screen and make sure you pass through the same color as your character!"
   },
   {
-    "id": 16,
+    "id": 13,
     "name": "Racikan Bli",
     "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/RacikanBli/index.html",
     "icon": "/images/racikanbli-icon.png",
