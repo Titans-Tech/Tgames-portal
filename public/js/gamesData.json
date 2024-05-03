@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Ketapel Buah",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Yohanes/BallShooter/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yohanes/BallShooter/index.html",
     "icon": "/images/ketapel-icon.png",
     "image": "/images/thumbnail-ketapel-buah.png",
     "bg": "/images/bg-ketapel-buah.png",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Tanggar Leak",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Virginia/EndlessPlatformJump/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/EndlessPlatformJump/index.html",
     "icon": "/images/leak-icon.png",
     "image": "/images/thumbnail-tangar-leak.png",
     "bg": "/images/bg-tangar-leak.png",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Bikkelen",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Yudi/pinbal-basket/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/pinbal-basket/index.html",
     "icon": "/images/bikkelen-icon.png",
     "image": "/images/thumbnail-bikkelen.png",
     "bg": "/images/bg-bikkelen.png",
@@ -38,7 +38,7 @@
   {
     "id": 6,
     "name": "Bayar Utang",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Virginia/BayarUtang/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/BayarUtang/index.html",
     "icon": "/images/bayarutang-icon.png",
     "image": "/images/NewThumb_BayarUtang_ScreenTitle.png",
     "bg": "/images/NewThumb_BayarUtang_BG.png",
@@ -47,7 +47,7 @@
   {
     "id": 7,
     "name": "Scare The Crow",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Yudi/scarecrow/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Yudi/scarecrow/index.html",
     "icon": "/images/scarecrow-icon.png",
     "image": "/images/thumbnail-scare-the-crow.png",
     "bg": "/images/bg-scare-the-crow.png",
@@ -56,7 +56,7 @@
   {
     "id": 8,
     "name": "Germa Shoot - AR Game",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/GermaShoot/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/GermaShoot/index.html",
     "icon": "/images/germashoot-icon.png",
     "image": "/images/Thumbnail-Games-germashoot.png",
     "bg": "/images/Background-Games-germashoot.png",
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Pusmeng",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Virginia/Pusmeng/index.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/Pusmeng/index.html",
     "icon": "/images/pusmeng-icon.png",
     "image": "/images/thumbnail-pusmeng.png",
     "bg": "/images/bg-pusmeng.png",
@@ -83,7 +83,7 @@
   {
     "id": 11,
     "name": "Panen Jagung",
-    "link": "https://titans-dev.s3.ap-southeast-1.amazonaws.com/Virginia/PanenJagung/templates/game.html",
+    "link": "https://titans-dev.s3.ap-southeast-3.amazonaws.com/Virginia/PanenJagung/templates/game.html",
     "icon": "/images/panenjagung-icon.png",
     "image": "/images/thumbnail-panen-jagung.png",
     "bg": "/images/bg-panen-jagung.png",
