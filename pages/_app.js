@@ -132,7 +132,7 @@ function MyApp({ Component, pageProps }) {
 
   return(
     <>
-      <DynamicHeader seoTitle="Titans Games" seoDescription="Explore Titans Tech game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
+      <DynamicHeader seoTitle="PixieLab Games" seoDescription="Explore PixieLab game hub where you can play and explore without any hassle. Whether you're into action, adventure, or strategy games, you'll definitely find something you like!"/>
         {loggedIn ?
           (
             <div className="container status">

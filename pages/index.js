@@ -459,7 +459,7 @@ export default function Home() {
           <i className="bi bi-box-arrow-right" style={{"fontSize": "13px"}}></i> Log out
         </div>
         <div className="row detail-wrapper position-relative">
-          <h1>Titans Tech<br/>Game Library</h1>
+          <h1>PixieLab<br/>Game Library</h1>
           {games?
             <CarouselDetail/>
             :
@@ -472,11 +472,11 @@ export default function Home() {
               <a className="back" ref={refBackButton}>
                 <i className="bi bi-chevron-left"></i>
               </a>
-              Titans Tech Games
+              PixieLab Games
             </h3>
           </div>
           <div className="list-header">
-            <h2 className="title">Titans Tech Games</h2>
+            <h2 className="title">PixieLab Games</h2>
             <a className="see-all" role="button" ref={refSeeAll}>See All</a>
           </div>
 
